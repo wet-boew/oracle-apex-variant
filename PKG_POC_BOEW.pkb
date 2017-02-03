@@ -52,7 +52,7 @@ IS
 BEGIN
         RETURN ' SELECT LEVEL, 
 			nom_menu LABEL, 
-			nom_lien TARGET
+			nom_lien TARGET,
 			NULL IS_CURRENT_LIST_ENTRY,
 			NULL IMAGE,
 			NULL IMAGE_ATTRIBUTE,
